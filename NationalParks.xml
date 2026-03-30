@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- valid xml file w/ 10 valid national parks, each following the rules in the xsd file for national parks.            -->               -->
+ <!-- NearestAirport required Address -->
+<!-- Rating is optional on NationalPark -->
+<NationalParks>
+  <NationalPark Rating="4.3">
+    <Name>Congaree</Name>
+    <Phone>803-776-4396</Phone>
+    <Address NearestAirport="Columbia">
+      <Number>100</Number>
+      <Street>National Park Road</Street>
+      <City>Hopkins</City>
+      <State>SC</State>
+      <Zip>29061</Zip>
+    </Address>
+  </NationalPark>
+  <NationalPark>
+    <Name>Guadalupe Mountains</Name>
+    <Phone>915-828-3251</Phone>
+    <Address NearestAirport="El Paso">
+      <Number>400</Number>
+      <Street>Pine Springs Road</Street>
+      <City>Salt Flat</City>
+      <State>TX</State>
+      <Zip>79847</Zip>
+    </Address>
+  </NationalPark>
+  <NationalPark Rating="4.1">
+    <Name>Voyageurs</Name>
+    <Phone>218-283-6600</Phone>
+    <Phone>218-283-6601</Phone>
+    <Address NearestAirport="International Falls">
+      <Number>360</Number>
+      <Street>Hwy 11 East</Street>
+      <City>International Falls</City>
+      <State>MN</State>
+      <Zip>56649</Zip>
+    </Address>
+  </NationalPark>
+  <NationalPark>
+    <Name>Isle Royale</Name>
+    <Phone>906-482-0984</Phone>
+    <Address NearestAirport="Houghton County">
+      <Number>800</Number>
+      <Street>East Lakeshore Drive</Street>
+      <City>Houghton</City>
+      <State>MI</State>
+      <Zip>49931</Zip>
+    </Address>
+  </NationalPark>
+  <NationalPark Rating="4.2">
+    <Name>Black Canyon</Name>
+    <Phone>970-249-1914</Phone>
+    <Phone>970-249-1915</Phone>
+    <Address NearestAirport="Montrose">
+      <Number>102</Number>
+      <Street>Elk Creek Road</Street>
+      <City>Gunnison</City>
+      <State>CO</State>
+      <Zip>81230</Zip>
+    </Address>
+  </NationalPark>
+  <NationalPark Rating="4.0">
+    <Name>Pinnacles</Name>
+    <Phone>831-389-4486</Phone>
+    <Address NearestAirport="Salinas">
+      <Number>5000</Number>
+      <Street>Highway 146</Street>
+      <City>Paicines</City>
+      <State>CA</State>
+      <Zip>95043</Zip>
+    </Address>
+  </NationalPark>
+  <NationalPark>
+    <Name>Dry Tortugas</Name>
+    <Phone>305-242-7700</Phone>
+    <Address NearestAirport="Key West">
+      <Number>40001</Number>
+      <Street>SR-9336</Street>
+      <City>Homestead</City>
+      <State>FL</State>
+      <Zip>33034</Zip>
+    </Address>
+  </NationalPark>
+  <NationalPark Rating="4.2">
+    <Name>Cuyahoga Valley</Name>
+    <Phone>330-657-2752</Phone>
+    <Phone>330-657-2753</Phone>
+    <Address NearestAirport="Akron Canton">
+      <Number>15610</Number>
+      <Street>Vaughn Road</Street>
+      <City>Peninsula</City>
+      <State>OH</State>
+      <Zip>44264</Zip>
+    </Address>
+  </NationalPark>
+  <NationalPark>
+    <Name>Great Basin</Name>
+    <Phone>775-234-7331</Phone>
+    <Address NearestAirport="Elko">
+      <Number>100</Number>
+      <Street>Great Basin National Park</Street>
+      <City>Baker</City>
+      <State>NV</State>
+      <Zip>89311</Zip>
+    </Address>
+  </NationalPark>
+  <NationalPark Rating="4.1">
+    <Name>Wind Cave</Name>
+    <Phone>605-745-4600</Phone>
+    <Phone>605-745-4601</Phone>
+    <Address NearestAirport="Rapid City">
+      <Number>26611</Number>
+      <Street>US Highway 385</Street>
+      <City>Hot Springs</City>
+      <State>SD</State>
+      <Zip>57747</Zip>
+    </Address>
+  </NationalPark>
+</NationalParks>

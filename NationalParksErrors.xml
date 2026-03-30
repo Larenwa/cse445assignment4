@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- root attribute is NationalPark, not NationalParks -->
+<NationalPark>
+  <!-- On Address, NearestAirport missing -->
+  <NationalPark Rating="4.3">
+    <Name>Congaree</Name>
+    <Phone>803-776-4396</Phone>
+    <Address>
+      <Number>100</Number>
+      <Street>National Park Road</Street>
+      <City>Hopkins</City>
+      <State>SC</State>
+      <Zip>29061</Zip>
+    </Address>
+  </NationalPark>
+  <!-- Phone missing -->
+  <NationalPark>
+    <Name>Isle Royale</Name>
+    <Address NearestAirport="Houghton County">
+      <Number>800</Number>
+      <Street>East Lakeshore Drive</Street>
+      <City>Houghton</City>
+      <State>MI</State>
+      <Zip>49931</Zip>
+    </Address>
+  </NationalPark>
+  <!-- Address has no closing tag -->
+  <NationalPark Rating="4.1">
+    <Name>Voyageurs</Name>
+    <Phone>218-283-6600</Phone>
+    <Address NearestAirport="International Falls">
+      <Number>360</Number>
+      <Street>Hwy 11 East</Street>
+      <City>International Falls</City>
+      <State>MN</State>
+      <Zip>56649</Zip>
+  </NationalPark>
+  <!-- Two Name attributes on one national park -->
+  <NationalPark Rating="4.2">
+    <Name>Black Canyon</Name>
+    <Name>Black Canyon of the Gunnison</Name>
+    <Phone>970-249-1914</Phone>
+    <Address NearestAirport="Montrose">
+      <Number>102</Number>
+      <Street>Elk Creek Road</Street>
+      <City>Gunnison</City>
+      <State>CO</State>
+      <Zip>81230</Zip>
+    </Address>
+  </NationalPark>
+</NationalPark>
