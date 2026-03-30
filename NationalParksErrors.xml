@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- root attribute is NationalPark, not NationalParks -->
+<!-- Error 1: root element is NationalPark instead of NationalParks -->
 <NationalPark xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
               xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Larenwa/cse445assignment4/refs/heads/main/NationalParks.xsd">
-  <!-- On Address, NearestAirport missing -->
+  <!-- Error 2: NearestAirport required attribute is missing on Address -->
   <NationalPark Rating="4.3">
     <Name>Congaree</Name>
     <Phone>803-776-4396</Phone>
@@ -14,7 +14,7 @@
       <Zip>29061</Zip>
     </Address>
   </NationalPark>
-  <!-- Phone missing -->
+  <!-- Error 3: Phone element is missing -->
   <NationalPark>
     <Name>Isle Royale</Name>
     <Address NearestAirport="Houghton County">
@@ -25,7 +25,7 @@
       <Zip>49931</Zip>
     </Address>
   </NationalPark>
-  <!-- Address has no closing tag -->
+  <!-- Error 4: Address element has no closing tag -->
   <NationalPark Rating="4.1">
     <Name>Voyageurs</Name>
     <Phone>218-283-6600</Phone>
@@ -36,7 +36,7 @@
       <State>MN</State>
       <Zip>56649</Zip>
   </NationalPark>
-  <!-- Two Name attributes on one national park -->
+  <!-- Error 5: Two Name elements provided -->
   <NationalPark Rating="4.2">
     <Name>Black Canyon</Name>
     <Name>Black Canyon of the Gunnison</Name>
